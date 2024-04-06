@@ -53,7 +53,4 @@ python gui.py
 ```
 Utilize data/demo folder for use
 
-## Contributing
-
-
 
