@@ -198,7 +198,7 @@ class App(QWidget):
         original_img_to_test = transform(original_img)
         img_to_test = transform(pil_img)
         print(img_to_test.size())
-        pil_img.save("./data/demo/temp.jpg")
+        pil_img.save("./data/temp.jpg")
 
 
         model = CustomNetwork(None, None)
@@ -256,7 +256,7 @@ class App(QWidget):
     def parse_arguments(self):
         parser = argparse.ArgumentParser(description='Arguments to pass to the test module')
         parser.add_argument('-cuda', type=str, default='cpu', help='device')
-        parser.add_argument('-s', type=str, default='./data/models/6_mapillary_vgg_all_classes_brightness.pth',
+        parser.add_argument('-s', type=str, default='./data/models/VGG_Attacked_Final.pth',
                             help='weight path')
         parser.add_argument('-i', type=int, default=126, help='image index to test')
 
