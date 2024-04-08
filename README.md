@@ -9,7 +9,7 @@ This project implements a machine learning or deep learning model for classifyin
 To get started with this project, clone this repository to your local machine.
 
 ```
-git clone [Your Repository URL]
+git clone https://github.com/FreddieC19/Capstone-Traffic-Sign-Detector.git
 ```
 
 Ensure you have Python 3.x installed. Then, install the required dependencies (see requirements)
