@@ -2,7 +2,7 @@
 By Fred Clark, Keegan Dillon and Tom Hamilton
 ## Description
 
-This project implements a machine learning or deep learning model for classifying street signs. It includes scripts for training the model for which the Mapillary Traffic Sign dataset was used. Featuring a graphical user interface for easy interaction.
+This project implements a deep learning model for classifying street signs. It includes scripts for training the model for which the Mapillary Traffic Sign dataset was used. Featuring a graphical user interface for easy interaction.
 
 ## Installation
 
